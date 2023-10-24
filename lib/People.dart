@@ -17,7 +17,7 @@ class People {
                 final uid = user['uid'];
                 final firstName = user['first_name'];
                 final lastName = user['last_name'];
-                print('User: $uid, $firstName, $lastName.');
+                print('Uid: $uid, User: $firstName $lastName.');
             }
             }else {
                 print('Failed to fetch data. Status code: ${res.statusCode}');
