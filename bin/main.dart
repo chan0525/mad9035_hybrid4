@@ -1,7 +1,8 @@
-import 'package:async_http_json/People.dart' as People;
+import 'package:async_http_json/people.dart';
+import 'dart:convert';
 
 
-void main() {
-
-
+void main() async {
+  final people = People();
+  await people.fetchUsers();
 }
